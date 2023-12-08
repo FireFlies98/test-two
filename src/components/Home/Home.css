@@ -1,0 +1,67 @@
+.home_main {
+   background-color: #1c242d;
+   background-image: url("https://www.opendota.com/assets/images/home-background.png");
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center top 23px;
+   padding-top: 5%;
+}
+
+.home_main_content_wrap {
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+}
+
+.home_title_container {
+   padding: 8% 0 12%;
+}
+
+.home_title {
+   font-size: 5em;
+   font-weight: bold;
+   text-shadow: rgb(0, 0, 0) 0px 0px 6px;
+}
+
+.home_subtitle {
+   font-size: 2em;
+   font-weight: bold;
+   text-shadow: rgb(0, 0, 0) 0px 0px 6px;
+}
+
+.home_information_container {
+   display: flex;
+   margin: auto;
+}
+
+.home_information_block {
+   margin: 0 7vh;
+}
+
+.svg_icon {
+   width: 30%;
+   fill: rgb(102, 187, 255);
+   margin-bottom: 1vh;
+}
+
+.home_information_title {
+   font-size: 22px;
+   font-weight: 500;
+   color: rgba(255, 255, 255, 0.87);
+   line-height: 2;
+}
+
+.home_information_text {
+   font-size: 17px;
+   line-height: 1.5;
+   font-weight: 200;
+   color: rgb(190, 190, 190);
+}
+
+.home_footer {
+   display: none;
+}
+
+.home_footer_border {
+   margin-right: 4vh;
+}
